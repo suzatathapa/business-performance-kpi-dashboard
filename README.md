@@ -57,6 +57,52 @@ business-performance-kpi-dashboard/
 └── README.md
 ```
 
+## Data Analysis
+
+The analysis focused on key business performance measures across products, customers, regions, and time.
+
+* **KPI Analysis:** Revenue, Profit, Profit Margin, Orders, Customers, and Units Sold
+* **Regional Analysis:** Revenue, profit, and order performance by region
+* **Product Analysis:** Revenue and profit by product and category
+* **Customer Analysis:** Customer revenue, order activity, and customer rankings
+* **Monthly Trends:** Monthly revenue, profit, and order trends
+* **Data Quality:** Missing values, duplicates, invalid values, and consistency checks
+* **Root Cause Analysis:** Investigation of unexpected results, discrepancies, and performance changes
+
+  ## Results Summary
+
+The analysis identified several differences in business performance across regions, products, categories, and months.
+
+* **West** had the highest regional revenue at **$9,438.90**.
+* **North** had the lowest regional revenue at **$7,283.00**.
+* **Electronics** generated the highest category profit at **$5,584.50**.
+* **Laptop** generated the highest product revenue at **$11,546.50** and the highest product profit at **$2,921.50**.
+* **January** had the highest monthly revenue at **$4,470.00**.
+* **August** had the lowest monthly revenue at **$1,054.00**.
+* Monthly revenue fluctuated throughout the year, highlighting opportunities to investigate changes in product, regional, or customer performance.
+
+## Data Quality & Validation
+
+Data quality checks were performed before analysis to improve the reliability of the reporting outputs.
+
+* Checked for missing Order IDs, Customer IDs, and Order Dates.
+* Checked for duplicate order records.
+* Validated quantities and unit prices for invalid or negative values.
+* Verified discount values were within the expected 0–1 range.
+* Reviewed category and region values for consistency.
+* Converted date and numeric fields to appropriate data types.
+* Applied validation rules during the cleaning process before calculating business metrics.
+* Reviewed calculated Revenue, Profit, and Profit Margin values for consistency.
+
+## Business Value
+
+This project demonstrates how cleaned and validated data can be transformed into information that supports business decision-making.
+
+The analysis provides visibility into regional performance, product and category profitability, customer activity, and monthly revenue trends. These insights can help identify areas of strong performance, investigate unexpected changes, and support further analysis of sales and operational performance.
+
+The project also demonstrates a focus on data accuracy, repeatable analysis, documentation, and clear communication of findings.
+
+
 ## Dataset
 
 ...
