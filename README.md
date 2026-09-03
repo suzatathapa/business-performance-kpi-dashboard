@@ -105,15 +105,60 @@ The project also demonstrates a focus on data accuracy, repeatable analysis, doc
 
 ## Dataset
 
-...
+This project uses a sample sales dataset created for portfolio and demonstration purposes. The dataset contains transaction-level information including order dates, customers, products, categories, regions, quantities, prices, discounts, and costs.
+
+### Key Fields
+
+* **Order information:** Order ID and Order Date
+* **Customer information:** Customer ID and Customer Name
+* **Product information:** Product and Category
+* **Geographic information:** Region
+* **Sales information:** Quantity, Unit Price, and Discount
+* **Cost information:** Cost
+* **Calculated metrics:** Revenue, Profit, and Profit Margin
+
+The raw dataset is stored in `data/raw/`, while cleaned and analysis-ready datasets are stored in `data/cleaned/`.
+
+The dataset is fictional/sample data and does not contain confidential employer information.
+
 
 ## SQL Analysis
 
-...
+The SQL analysis was used to validate the dataset, create analysis-ready business metrics, and evaluate performance across multiple dimensions.
+
+### SQL Analysis Performed
+
+* Created the `BusinessAnalytics` database and `Sales` table.
+* Performed data quality checks for missing values, duplicates, invalid quantities, prices, discounts, dates, categories, and regions.
+* Created a SQL view containing calculated Revenue and Profit fields.
+* Analyzed overall KPIs including revenue, profit, orders, customers, and units sold.
+* Compared revenue, profit, and orders across regions.
+* Analyzed product and category performance.
+* Ranked customers based on revenue and order activity.
+* Analyzed monthly revenue and profit trends.
+* Used SQL functions such as `GROUP BY`, aggregations, `RANK()`, and `LAG()` to support the analysis.
+
+SQL scripts are organized in the `sql/` folder and numbered according to the analysis workflow.
 
 ## Python Analysis
 
-...
+Python was used to clean, transform, validate, and analyze the sales dataset using Pandas and NumPy.
+
+### Python Analysis Performed
+
+* Loaded and reviewed the raw sales dataset.
+* Checked dataset structure, data types, and missing values.
+* Removed duplicate records and filtered invalid data.
+* Converted date and numeric fields to appropriate formats.
+* Calculated Revenue, Profit, and Profit Margin.
+* Created a monthly summary of revenue, profit, and orders.
+* Analyzed revenue by region.
+* Analyzed profit by category.
+* Identified top-performing products based on revenue and profit.
+* Exported cleaned and analysis-ready datasets for further reporting.
+
+The Python workflow is contained in `python/data_cleaning_analysis.py`.
+
 
 ## Key Business Insights
 
