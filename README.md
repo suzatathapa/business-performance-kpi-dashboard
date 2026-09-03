@@ -1,5 +1,30 @@
+# Business Performance KPI Dashboard
+
+End-to-end business performance analytics project using SQL, Python, Excel, and Power BI.
+
+## Project Overview
+
+## Project Overview
+
+This project demonstrates an end-to-end business data analytics workflow using a sample sales dataset. The analysis covers data cleaning, data quality validation, SQL-based analysis, Python data processing, KPI development, and business insight generation.
+
+The project is designed to demonstrate practical skills in SQL, Python, Excel, data validation, KPI analysis, trend analysis, and reporting. The dataset is a sample portfolio dataset created for demonstration purposes and does not contain confidential or employer data.
+
+
+## Dataset
+
+...
+
+## SQL Analysis
+
+...
+
+## Python Analysis
+
+...
 
 ## Key Business Insights
+
 
 Analysis of the cleaned sales data identified several notable business trends:
 
