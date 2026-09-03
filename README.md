@@ -57,6 +57,15 @@ business-performance-kpi-dashboard/
 └── README.md
 ```
 
+### Project Files
+
+* [SQL Analysis](sql/) — SQL scripts for data quality checks, cleaning, KPI analysis, product analysis, customer analysis, and monthly trends.
+* [Python Analysis](python/) — Python script for data cleaning, validation, metric calculation, and analysis.
+* [Cleaned Data](data/cleaned/) — Analysis-ready datasets generated from the cleaning workflow.
+* [Documentation](documentation/) — Business requirements and data dictionary.
+* [Raw Data](data/raw/) — Sample source sales dataset used for the project.
+
+
 ## Data Analysis
 
 The analysis focused on key business performance measures across products, customers, regions, and time.
