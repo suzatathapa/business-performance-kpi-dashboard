@@ -82,12 +82,12 @@ The analysis focused on key business performance measures across products, custo
 
 The analysis identified several differences in business performance across regions, products, categories, and months.
 
-* **West** had the highest regional revenue at **$9,438.90**.
-* **North** had the lowest regional revenue at **$7,283.00**.
-* **Electronics** generated the highest category profit at **$5,584.50**.
-* **Laptop** generated the highest product revenue at **$11,546.50** and the highest product profit at **$2,921.50**.
-* **January** had the highest monthly revenue at **$4,470.00**.
-* **August** had the lowest monthly revenue at **$1,054.00**.
+* **West** had the highest regional revenue at $9,438.90.
+* **North** had the lowest regional revenue at $7,283.00.
+* **Electronics** generated the highest category profit at $5,584.50.
+* **Laptop** generated the highest product revenue at $11,546.50 and the highest product profit at $2,921.50.
+* **January** had the highest monthly revenue at $4,470.00.
+* **August** had the lowest monthly revenue at $1,054.00.
 * Monthly revenue fluctuated throughout the year, highlighting opportunities to investigate changes in product, regional, or customer performance.
 
 ## Data Quality & Validation
@@ -116,19 +116,34 @@ The project also demonstrates a focus on data accuracy, repeatable analysis, doc
 
 This project uses a sample sales dataset created for portfolio and demonstration purposes. The dataset contains transaction-level information including order dates, customers, products, categories, regions, quantities, prices, discounts, and costs.
 
-### Key Fields
-
-* **Order information:** Order ID and Order Date
-* **Customer information:** Customer ID and Customer Name
-* **Product information:** Product and Category
-* **Geographic information:** Region
-* **Sales information:** Quantity, Unit Price, and Discount
-* **Cost information:** Cost
-* **Calculated metrics:** Revenue, Profit, and Profit Margin
+* Order information:** Order ID and Order Date
+* Customer information:** Customer ID and Customer Name
+* Product information:** Product and Category
+* Geographic information:** Region
+* Sales information:** Quantity, Unit Price, and Discount
+* Cost information:** Cost
+* Calculated metrics:** Revenue, Profit, and Profit Margin
 
 The raw dataset is stored in `data/raw/`, while cleaned and analysis-ready datasets are stored in `data/cleaned/`.
 
 The dataset is fictional/sample data and does not contain confidential employer information.
+
+### Key Fields
+
+
+* Order_ID: Unique identifier for each sales transaction
+* Order_Date: Date of the transaction
+*  Customer_ID / Customer_Name: Customer identification and name
+* Product / Category: Product and product category
+* Region: Sales region
+* Quantity: Number of units sold
+* Unit_Price: Price per unit before discount
+* Discount: Discount applied to the transaction
+* Cost: Cost per unit
+* Revenue: Calculated sales revenue after discount
+* Profit: Calculated revenue minus total product cost
+* Profit_Margin: Calculated profit as a percentage of revenue
+
 
 
 ## SQL Analysis
@@ -171,11 +186,10 @@ The Python workflow is contained in `python/data_cleaning_analysis.py`.
 
 ## Key Business Insights
 
-
 Analysis of the cleaned sales data identified several notable business trends:
 
 * **West generated the highest regional revenue** at $9,438.90, while North generated the lowest at $7,283.00.
 * **Electronics generated the highest total profit** at $5,584.50, followed by Furniture and Accessories.
 * **Laptop was the top-performing product by revenue**, generating $11,546.50 in revenue and $2,921.50 in profit.
 * **Monthly revenue varied significantly** throughout 2024, with January generating the highest monthly revenue at $4,470.00 and August the lowest at $1,054.00.
-* Revenue fluctuated throughout the year, with stronger performance in January and May and lower performance in August and November.
+* The variation in monthly revenue suggests opportunities to investigate changes in product, regional, or customer performance during stronger and weaker periods.
