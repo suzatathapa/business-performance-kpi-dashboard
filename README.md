@@ -1,6 +1,7 @@
 # Business Performance KPI Dashboard
 
-End-to-end business performance analytics project using SQL, Python, Excel, and Power BI.
+End-to-end business performance analytics project using SQL and Python, with a focus on data cleaning, validation, KPI analysis, and business insights.
+
 
 ## Project Overview
 
@@ -133,7 +134,7 @@ The dataset is fictional/sample data and does not contain confidential employer 
 
 * Order_ID: Unique identifier for each sales transaction
 * Order_Date: Date of the transaction
-*  Customer_ID / Customer_Name: Customer identification and name
+* Customer_ID / Customer_Name: Customer identification and name
 * Product / Category: Product and product category
 * Region: Sales region
 * Quantity: Number of units sold
