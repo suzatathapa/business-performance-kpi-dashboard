@@ -10,6 +10,11 @@ This project demonstrates an end-to-end business data analytics workflow using a
 
 The project is designed to demonstrate practical skills in SQL, Python, Excel, data validation, KPI analysis, trend analysis, and reporting. The dataset is a sample portfolio dataset created for demonstration purposes and does not contain confidential or employer data.
 
+## Interactive Dashboard
+
+[View the Business Performance Analytics Dashboard on Tableau Public](https://public.tableau.com/views/BusinessPerformanceAnalytics/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+
+
 ## Technical Workflow
 
 1. Loaded the raw sales dataset and reviewed its structure and data types.
@@ -189,8 +194,10 @@ The Python workflow is contained in `python/data_cleaning_analysis.py`.
 
 Analysis of the cleaned sales data identified several notable business trends:
 
-* **West generated the highest regional revenue** at $9,438.90, while North generated the lowest at $7,283.00.
-* **Electronics generated the highest total profit** at $5,584.50, followed by Furniture and Accessories.
-* **Laptop was the top-performing product by revenue**, generating $11,546.50 in revenue and $2,921.50 in profit.
-* **Monthly revenue varied significantly** throughout 2024, with January generating the highest monthly revenue at $4,470.00 and August the lowest at $1,054.00.
+* West generated the highest regional revenue at $9,438.90, while North generated the lowest at $7,283.00.
+* Electronics generated the highest total profit at $5,584.50, followed by Furniture and Accessories.
+* Laptop was the top-performing product by revenue, generating $11,546.50 in revenue and $2,921.50 in profit.
+* Monthly revenue varied significantly throughout 2024, with January generating the highest monthly revenue at $4,470.00 and August the lowest at $1,054.00.
+* Laptop generated the highest product-level profit at $2,921.50, while Mouse generated the lowest at $439.50.
 * The variation in monthly revenue suggests opportunities to investigate changes in product, regional, or customer performance during stronger and weaker periods.
+
